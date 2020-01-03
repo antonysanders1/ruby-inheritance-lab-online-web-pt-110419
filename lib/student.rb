@@ -11,6 +11,7 @@ class Student < User
   def learn(string) 
     #binding.pry
     @knowledge << string
+    @knowledge
   end 
   
   def knowledge
