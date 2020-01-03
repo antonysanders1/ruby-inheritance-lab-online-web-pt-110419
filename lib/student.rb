@@ -7,7 +7,7 @@ class Student < User
   
   
   def learn(string) 
-    
+    binding.pry
     
   end 
   
