@@ -9,7 +9,7 @@ class Student < User
   
   
   def learn(string) 
-    binding.pry
+    #binding.pry
     @knowledge << string
   end 
   
