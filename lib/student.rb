@@ -14,7 +14,7 @@ class Student < User
   end 
   
   def knowledge
-    learn 
+    self.learn 
   end 
 
 
