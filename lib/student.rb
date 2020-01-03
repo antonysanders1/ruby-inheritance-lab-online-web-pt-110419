@@ -10,11 +10,11 @@ class Student < User
   
   def learn(string) 
     binding.pry
-    
+    @knowledge << string
   end 
   
   def knowledge
-    @knowledge
+    learn 
   end 
 
 
