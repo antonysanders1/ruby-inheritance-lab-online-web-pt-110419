@@ -6,7 +6,7 @@ class Student < User
   end
   
   
-  def learn 
+  def learn(string) 
     
     
   end 
